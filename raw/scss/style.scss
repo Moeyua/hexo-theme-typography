@@ -71,6 +71,7 @@ h6 {
 body {
   font-size: 18px;
   line-height: 1.5em;
+  letter-spacing: 1.5px;
 
   @if lightness($backgroundColor) >50 {
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACFJREFUeNpiZGBg4GegAsBlCD8TqSYNQg2Mo6FEBAAIMACdPABtrSW/IQAAAABJRU5ErkJggg==");
@@ -365,6 +366,7 @@ footer * {
 
 .post-title {
   font-size: 24px;
+  line-height: 1.5em;
   font-weight: bold;
   margin: 3px 0;
 }
@@ -394,6 +396,7 @@ pre {
   * {
     font-family: Monaco, Menlo, "Source Code Pro", "Cascadia Code", Consolas, monospace;
     background: transparent !important;
+    font-size: 16px !important;
   }
 }
 
